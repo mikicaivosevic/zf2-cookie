@@ -1,0 +1,26 @@
+{
+  "name": "mikica/zf2-cookie",
+  "description": "Easy usage of cookies",
+  "keywords": ["zf2", "cookie", "zend"],
+  "type": "plugin",
+  "homepage": "http://www.github.com/mikicaivosevic/zf2-cookie",
+  "require": {
+    "php": ">=5.4",
+    "zendframework/zendframework": "2.5.*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mikica Ivosevic",
+      "email": "mikica.ivosevic@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "ZfCookie": "src/"
+    },
+    "classmap": [
+      "src/"
+    ]
+  }
+}
