@@ -14,7 +14,7 @@ You need to register new module. Add in file config/application.config.php:
 
 Voila! The module is ready to use. 
 
-##Using in Controller
+##Usage
 
 ```php
 <?php
