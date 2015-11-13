@@ -1,6 +1,6 @@
 {
   "name": "mikica/zf2-cookie",
-  "description": "Easy usage of cookies",
+  "description": "Simple controller plugin for reading and writing cookies",
   "keywords": ["zf2", "cookie", "zend"],
   "type": "plugin",
   "homepage": "http://www.github.com/mikicaivosevic/zf2-cookie",
