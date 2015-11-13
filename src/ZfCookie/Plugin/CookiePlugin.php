@@ -41,11 +41,4 @@ class CookiePlugin extends AbstractPlugin
         $headers->addHeader($cookie);
         return true;
     }
-
-    public function setCookie(SetCookie $cookie)
-    {
-        $headers = $this->response->getHeaders();
-        $headers->addHeader($cookie);
-        return true;
-    }
 }
