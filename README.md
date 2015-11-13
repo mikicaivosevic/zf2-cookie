@@ -1,4 +1,4 @@
-#Simple controller plugin for reading and writing cookie.
+#Simple controller plugin for reading and writing cookies.
 
 ##Installation
 `composer install mikica/zf2-cookie`
