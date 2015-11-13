@@ -4,8 +4,9 @@ namespace ZfCookie\Plugin;
 use Zend\Http\Header\SetCookie;
 use Zend\Http\Request;
 use Zend\Http\Response;
+use Zend\Mvc\Controller\Plugin\AbstractPlugin;
 
-class CookiePlugin
+class CookiePlugin extends AbstractPlugin
 {
     /** @var  Request $request */
     private $request;
