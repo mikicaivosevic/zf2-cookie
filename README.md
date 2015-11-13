@@ -25,3 +25,4 @@ $this->cookie($key, $value, $expires); //Write cookie
 
 $this->cookie->setCookie(new SetCookie(...)); //Set cookie Zend\Http\Header\SetCookie
 ```
+
